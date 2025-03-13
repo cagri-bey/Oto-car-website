@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTO-CAR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-brands/css/uicons-brands.css'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+<body>
+
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars">
+            
+        </div>
+
+        <a href="#" class="logo"><span>OTO</span>CAR</a>
+
+        <nav class="navbar">
+            <a href="#home">Anasayfa</a>
+            <a href="#vehicles">Araçlar</a>
+            <a href="#services">Servisler</a>
+            <a href="#featured">Kiralık Araçlar</a>
+            <a href="#reviews">Yorumlar</a>
+            <a href="#contact">İletişim</a>
+        </nav>
+
+        <div id="login-btn">
+            <button class="btn">Giriş</button>
+            <i class="fi fi-rr-user"></i>
+            
+        </div>
+
+    </header>
+
+    <div class="login-form-container">
+
+        <span id="close-login-form" class="fas fa-times"></span>
+
+        <form action="">
+            <h3> KULLANICI GİRİŞ</h3>
+            <input type="email" placeholder="E-mail adresiniz" class="box">
+            <input type="password" placeholder="Parola" class="box">
+            <p>Parolanı Unuttuysan <a href="#">Tıkla</a></p>
+            <input type="submit" value="Giriş" class="btn">
+            <p>Ya da</p>
+            <div class="buttons">
+                <a href="#" class="btn">Google ile Giriş Yap</a>
+                <a href="#" class="btn">Facebook ile Giriş Yap</a>
+            </div>
+            <p>Hesabın yoksa <a href="#">OLUŞTUR</a></p>
+        </form>
+    </div>
+
+    <section class="home" id="home">
+        <h1 class="home-parallax" data-speed="-2">Raptor kullanmak ister misin?</h1>
+        <img src="resimler/raptor2.png" class="home-parallax" data-speed="5">
+        <a href="#" class="btn home-parallax" data-speed="7">Kirala</a>
+    </section>
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-home"></i>
+            <div class="content">
+                <h3>67</h3>
+                <p>Şube</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fi fi-ss-user-key"></i>
+            <div class="content">
+                <h3>4550+</h3>
+                <p>Satılan Araç</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-users"></i>
+            <div class="content">
+                <h3>7500+</h3>
+                <p>Etkin Müşteri</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>250+</h3>
+                <p>Yeni Araç</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="vehicles" id="vehicles">
+        <h1 class="heading">Popüler <span>Araçlarımız</span></h1>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="resimler/ana resim.png" alt="">
+                <div class="content">
+                    <h3>Rengar</h3>
+                    <div class="price"><span>Fiyat: </span>100.000 ₺</div>
+                    <p>Yeni 
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> Otomatik
+                        <span class="fas fa-circle"></span> Benzin
+                        <span class="fas fa-circle"></span> 100 kmh
+                    </p>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="resimler/rengar2-2.png" alt="">
+                <div class="content">
+                    <h3>Rengar</h3>
+                    <div class="price"><span>Fiyat: </span>100.000 ₺</div>
+                    <p>Yeni 
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> Otomatik
+                        <span class="fas fa-circle"></span> Benzin
+                        <span class="fas fa-circle"></span> 100 kmh
+                    </p>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="resimler/fiesta.png" alt="">
+                <div class="content">
+                    <h3>Rengar</h3>
+                    <div class="price"><span>Fiyat: </span>100.000 ₺</div>
+                    <p>Yeni 
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> Otomatik
+                        <span class="fas fa-circle"></span> Benzin
+                        <span class="fas fa-circle"></span> 100 kmh
+                    </p>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="resimler/ford focus.png" alt="">
+                <div class="content">
+                    <h3>Ford Focus</h3>
+                    <div class="price"><span>Fiyat: </span>45.000 ₺</div>
+                    <p>Yeni 
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> Otomatik
+                        <span class="fas fa-circle"></span> Benzin
+                        <span class="fas fa-circle"></span> 100 kmh
+                    </p>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="resimler/mercedes1.png" alt="">
+                <div class="content">
+                    <h3>Mercedes GLC SUV</h3>
+                    <div class="price"><span>Fiyat: </span>550.000 ₺</div>
+                    <p>Yeni 
+                        <span class="fas fa-circle"></span> 2023
+                        <span class="fas fa-circle"></span> Otomatik
+                        <span class="fas fa-circle"></span> Benzin
+                        <span class="fas fa-circle"></span> 0 kmh
+                    </p>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+              </div>              
+
+              <div class="swiper-slide">
+                <img src="resimler/mercedes2.png" alt="">
+                <div class="content">
+                    <h3>Mercedes-Benz GLA Tip H247 SUV</h3>
+                    <div class="price"><span>Fiyat: </span>200.000 ₺</div>
+                    <p>Yeni 
+                        <span class="fas fa-circle"></span> 2020
+                        <span class="fas fa-circle"></span> Otomatik
+                        <span class="fas fa-circle"></span> Benzin
+                        <span class="fas fa-circle"></span> 100 kmh
+                    </p>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+              </div>
+              
+              <div class="swiper-slide">
+                <img src="resimler/bmw.png" alt="">
+                <div class="content">
+                    <h3>BMW</h3>
+                    <div class="price"><span>Fiyat: </span>100.000 ₺</div>
+                    <p>Yeni 
+                        <span class="fas fa-circle"></span> 2023
+                        <span class="fas fa-circle"></span> Otomatik
+                        <span class="fas fa-circle"></span> Benzin
+                        <span class="fas fa-circle"></span> 100 kmh
+                    </p>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="resimler/bm2.png" alt="">
+                <div class="content">
+                    <h3>BMW</h3>
+                    <div class="price"><span>Fiyat: </span>130.000 ₺</div>
+                    <p>Yeni 
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> Otomatik
+                        <span class="fas fa-circle"></span> Benzin
+                        <span class="fas fa-circle"></span> 100 kmh
+                    </p>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="resimler/golf.png" alt="">
+                <div class="content">
+                    <h3>VW GOLF</h3>
+                    <div class="price"><span>Fiyat: </span>50.000 ₺</div>
+                    <p>Yeni 
+                        <span class="fas fa-circle"></span> 2018
+                        <span class="fas fa-circle"></span> Otomatik
+                        <span class="fas fa-circle"></span> Benzin
+                        <span class="fas fa-circle"></span> 100 kmh
+                    </p>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="resimler/GOLF 2024.png" alt="">
+                <div class="content">
+                    <h3>VW GOLF</h3>
+                    <div class="price"><span>Fiyat: </span>300.000 ₺</div>
+                    <p>Yeni 
+                        <span class="fas fa-circle"></span> 2024
+                        <span class="fas fa-circle"></span> Otomatik
+                        <span class="fas fa-circle"></span> Elektrikli
+                        <span class="fas fa-circle"></span> 100 kmh
+                    </p>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="resimler/r8.png" alt="">
+                <div class="content">
+                    <h3>AUDİ R8</h3>
+                    <div class="price"><span>Fiyat: </span>400.000 ₺</div>
+                    <p>Yeni 
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> Otomatik
+                        <span class="fas fa-circle"></span> Elektrikli
+                        <span class="fas fa-circle"></span> 10 kmh
+                    </p>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+              </div>              
+
+              <div class="swiper-slide">
+                <img src="resimler/2017 rs6.png" alt="">
+                <div class="content">
+                    <h3>AUDİ RS6</h3>
+                    <div class="price"><span>Fiyat: </span>150.000 ₺</div>
+                    <p>Yeni 
+                        <span class="fas fa-circle"></span> 2017
+                        <span class="fas fa-circle"></span> Otomatik
+                        <span class="fas fa-circle"></span> Benzin
+                        <span class="fas fa-circle"></span> 150 kmh
+                    </p>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+              </div>
+              
+              <div class="swiper-slide">
+                <img src="resimler/m4 coupe.png" alt="">
+                <div class="content">
+                    <h3>BMW M4 COUPE</h3>
+                    <div class="price"><span>Fiyat: </span>200.000 ₺</div>
+                    <p>Yeni 
+                        <span class="fas fa-circle"></span> 2020
+                        <span class="fas fa-circle"></span> Otomatik
+                        <span class="fas fa-circle"></span> Benzin
+                        <span class="fas fa-circle"></span> 100 kmh
+                    </p>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="resimler/M3.webp" alt="">
+                <div class="content">
+                    <h3>BMW M3 </h3>
+                    <div class="price"><span>Fiyat: </span>250.000 ₺</div>
+                    <p>Yeni 
+                        <span class="fas fa-circle"></span> 2023
+                        <span class="fas fa-circle"></span> Otomatik
+                        <span class="fas fa-circle"></span> Benzin
+                        <span class="fas fa-circle"></span> 1500 kmh
+                    </p>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="resimler/skoda.png" alt="">
+                <div class="content">
+                    <h3>SKODA  </h3>
+                    <div class="price"><span>Fiyat: </span>120.000 ₺</div>
+                    <p>Yeni 
+                        <span class="fas fa-circle"></span> 2020
+                        <span class="fas fa-circle"></span> Otomatik
+                        <span class="fas fa-circle"></span> Benzin
+                        <span class="fas fa-circle"></span> 1500 kmh
+                    </p>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <img src="resimler/rx8.png" alt="">
+                <div class="content">
+                    <h3>MAZDA RX8 SPORT  </h3>
+                    <div class="price"><span>Fiyat: </span>100.000 ₺</div>
+                    <p>Yeni 
+                        <span class="fas fa-circle"></span> 2017
+                        <span class="fas fa-circle"></span> Otomatik
+                        <span class="fas fa-circle"></span> Benzin
+                        <span class="fas fa-circle"></span> 1500 kmh
+                    </p>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </section>
+
+    <section class="services" id="services">
+        <h1 class="heading">Servislerimiz</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-car"></i>
+                <h3 >Araç Satışı</h3>
+                <p>Şirketimizin en önemli hizmetlerinden biri de Araç Satışıdır.
+                    Hızlı , güvenilir ve uygun fiyatlarla sektörde liderliğimizi sürdürüyoruz
+                </p>
+                <a href="#vehicles" class="btn">Araçları Gör</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-tools"></i>
+                <h3>Tamir | Bakım | Onarım </h3>
+                <p>Yetkili servislerimizle olumsuz durumlarda, bakım ve onarım hizmetlerinde sizi yarı yolda bırakmıyoruz.</p>
+                <a href="#" class="btn">Yetkili servislerimize gözat</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-car-crash"></i>
+                <h3>Sigorta ve Kasko Hizmeti </h3>
+                <p>Yetkili Sigorta Acentelerimizde zorunlu trafik sigortası ve kasko hizmeti vererek güvenceniz oluyoruz.
+                </p>
+                <a href="#" class="btn">Bilgi al</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-car-battery"></i>
+                <h3>Batarya Değişimi</h3>
+                <p> Belirli noktalarda elektrikli araçlarınızın bakımını yapıyor , bataryanızı ücretsiz değiştiriyoruz..
+                </p>
+                <a href="#" class="btn">Daha Fazlası için tıkla</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-gas-pump"></i>
+                <h3>Yağ Değişimi</h3>
+                <p>Yetkili servislerimizde ücretsiz yağ değişimlerinizi yapabilir , gönül rahatlığıyla
+                    yolculuk yapabilirsiniz.
+                </p>
+                <a href="#" class="btn">Yetkili Servisleri Gör</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-headset"></i>
+                <h3>7/24 Destek Hizmeti</h3>
+                <p>444 0 123 Telefon numarasıyla bizlere ulaşabilirsiniz
+                </p>
+                <a href="#" class="btn">Ara</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured" id="featured">
+        <h1 class="heading"><span>Kiralık</span> Araçlar</h1>
+
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class=" swiper-slide box">
+                    <img src="resimler/mitsu1.png" alt="">
+                    <h3>Mitsubishi</h3>
+                    <h3>Kiralık Araçlar</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">250 / Günlük</div>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+
+                <div class=" swiper-slide box">
+                    <img src="resimler/mitsu1.png" alt="">
+                    <h3>Mitsubishi</h3>
+                    <h3>Kiralık</h3>               
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">250 / Günlük</div>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="resimler/mitsu1.png" alt="">
+                    <h3>Mitsubishi</h3>
+                    <h3>Kiralık Araçlar</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">250 / Günlük</div>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="resimler/mitsu1.png" alt="">
+                    <h3>Mitsubishi</h3>
+                    <h3>Kiralık</h3>               
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">250 / Günlük</div>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="resimler/mitsu1.png" alt="">
+                    <h3>Mitsubishi</h3>
+                    <h3>Kiralık Araçlar</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">250 / Günlük</div>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="resimler/mitsu1.png" alt="">
+                    <h3>Mitsubishi</h3>
+                    <h3>Kiralık</h3>               
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">250 / Günlük</div>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class=" swiper-slide box">
+                    <img src="resimler/mitsu1.png" alt="">
+                    <h3>Mitsubishi</h3>
+                    <h3>Kiralık Araçlar</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">250 / Günlük</div>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+
+                <div class=" swiper-slide box">
+                    <img src="resimler/mitsu1.png" alt="">
+                    <h3>Mitsubishi</h3>
+                    <h3>Kiralık</h3>               
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">250 / Günlük</div>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="resimler/mitsu1.png" alt="">
+                    <h3>Mitsubishi</h3>
+                    <h3>Kiralık Araçlar</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">250 / Günlük</div>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="resimler/mitsu1.png" alt="">
+                    <h3>Mitsubishi</h3>
+                    <h3>Kiralık</h3>               
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">250 / Günlük</div>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="resimler/mitsu1.png" alt="">
+                    <h3>Mitsubishi</h3>
+                    <h3>Kiralık Araçlar</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">250 / Günlük</div>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="resimler/mitsu1.png" alt="">
+                    <h3>Mitsubishi</h3>
+                    <h3>Kiralık</h3>               
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">250 / Günlük</div>
+                    <a href="#" class="btn">Kirala</a>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <h3>Son gelişmeler için Abone Ol</h3>
+        <form action="">
+            <input type="email" placeholder="E-mail adresinizi yazın">
+            <input type="submit" class="subscribe" value="Abone Ol">
+        </form>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <h1 class="heading">Müşterilerimizin <span>Yorumları</span></h1>
+        <div class="swiper reviews-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="resimler/profil1.jpg" alt="">
+                    <div class="content">
+                        <p>Kiralık Araç sektöründe 1 numara diyebilirim.</p>
+                        <h3>Kerem Başbuğ</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="resimler/profil2.jpg" alt="">
+                    <div class="content">
+                        <p>Kiralık Araç sektöründe 1 numara diyebilirim.</p>
+                        <h3>Polat Avcı</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="resimler/profil3.jpg" alt="">
+                    <div class="content">
+                        <p>Kiralık Araç sektöründe 1 numara diyebilirim.</p>
+                        <h3>Mehmet Kirazcı</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="resimler/profil1.jpg" alt="">
+                    <div class="content">
+                        <p>Kiralık Araç sektöründe 1 numara diyebilirim.</p>
+                        <h3>Kerem Başbuğ</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="resimler/profil2.jpg" alt="">
+                    <div class="content">
+                        <p>Kiralık Araç sektöründe 1 numara diyebilirim.</p>
+                        <h3>Polat Avcı</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="resimler/profil3.jpg" alt="">
+                    <div class="content">
+                        <p>Kiralık Araç sektöründe 1 numara diyebilirim.</p>
+                        <h3>Mehmet Kirazcı</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <h1 class="heading"><span>Bize</span> Ulaşın</h1>
+
+    <section class="contact" id="contact">
+
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d630.3243113121773!2d31.419897492439805!3d41.27960357980905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x409c450043eb22c3%3A0xea2bff78c7b97e1a!2zRXJlxJ9saSDDlnpnw7xybMO8ayBBbsSxdMSx!5e0!3m2!1str!2str!4v1722871472967!5m2!1str!2str"
+               allowfullscreen="" loading="lazy"></iframe>
+
+               <form action="">
+                   <h3>İletişim Formu</h3>
+                   <input type="text" placeholder="İsim-Soyisim" class="box">
+                   <input type="email" placeholder="Mail adresiniz" class="box">
+                   <input type="number" placeholder="Telefon Numaranız" class="box">
+                   <textarea class="box" placeholder="Mesajınız" cols="25" rows="9"></textarea>
+                   <input type="submit" value="Gönder" class="btn">
+
+               </form>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Şubelerimiz</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Zonguldak</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Kocaeli</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> İstanbul</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Ankara</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> İzmir</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Antalya</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Trabzon</a>
+            </div>
+
+            <div class="box">
+                <h3>Hızlı Linkler</h3>
+                <a href="#home"> <i class="fas fa-arrow-right"></i> Anasayfa</a>
+                <a href="#vehicles"> <i class="fas fa-arrow-right"></i> Araçlar</a>
+                <a href="#services"> <i class="fas fa-arrow-right"></i> Servisler</a>
+                <a href="#featured"> <i class="fas fa-arrow-right"></i> Kiralık Araçlar</a>
+                <a href="#reviews"> <i class="fas fa-arrow-right"></i> Yorumlar</a>
+                <a href="#contact"> <i class="fas fa-arrow-right"></i> İletişim</a>
+            </div>
+
+            <div class="box">
+                <h3>Bize Ulaşın</h3>
+                <a href="#"> <i class="fas fa-phone"></i> 0 545 067 67 67</a>
+                <a href="#"> <i class="fas fa-phone"></i> 0 372 327 22 47</a>
+                <a href="#"> <i class="fas fa-envelope"></i> otocar@gmail.com</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Kdz.Ereğli / Zonguldak</a>
+            </div>
+
+            <div class="box">
+                <h3>Sosyal Medyalarımız</h3>
+                <a href="#"> <i class="fi fi-brands-facebook"></i> Facebook</a>
+                <a href="#"> <i class="fi fi-brands-instagram"></i> İnstagram</a>
+                <a href="#"> <i class="fi fi-brands-youtube"></i> Youtube</a>
+                <a href="#"> <i class="fi fi-brands-tik-tok"></i> Tiktok</a>
+                <a href="#"> <i class="fi fi-brands-twitter-alt-circle"></i> Twitter</a>
+            </div>
+        </div>
+
+        <div class="credit"> Çağrı Aydın tarafından tasarlanmıştır. | Tüm hakları saklıdır. | © Copyright 2024 </div>
+    </section>
+
+    
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="java.js"></script>
+    
+</body>
+</html>
